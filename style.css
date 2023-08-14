@@ -1,0 +1,63 @@
+.field_of_input{
+    background-color: rgb(244, 244, 244);
+    border-width: 0px;
+    border-radius: 15px;
+    height: 45px;
+    width: 350px;
+}
+.orange_button{
+    background-color: rgb(239, 165, 62);
+    border-width: 0px;
+    border-radius: 15px;
+    height: 45px;
+    width: 350px;
+    color: white;
+    font-weight: 600;
+}
+.field_of_input1{
+    resize: none;
+    background-color: rgb(244, 244, 244);
+    border-width: 0px;
+    border-radius: 15px;
+    height: 90px;
+    width: 350px;
+}
+.button {
+    background-color: rgb(239, 165, 62);
+    border-width: 0px;
+    border-radius: 15px;
+    height: 45px;
+    width: 350px;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .button:hover {
+    background-color: darkorange;
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+  }
+  .input-top {
+    position: relative;
+    background-color: rgb(244, 244, 244);
+    border-width: 0px;
+    border-radius: 15px;
+    height: 90px;
+    width: 350px;
+    }
+    
+    .input-top::placeholder {
+    position: absolute;
+    top: 5;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: gray;
+    font-size: 14px;
+    padding: 0 5px;
+    transition: all 0.3s ease;
+    pointer-events: none; /* чтобы не мешался при клике */
+    }
+    
